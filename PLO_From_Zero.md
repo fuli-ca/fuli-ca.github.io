@@ -11,6 +11,6 @@
     - PLO视频
     - 扑克工具
   - 学习计划
-     - 1. 学习书籍《底池限注奥马哈扑克‑大局策略》(Jeff Hwang )
-     - 2. 在[Deucescracked.com](https://Deucescracked.com)上学习视频系列2X6(Vanessa  Selbst  &  Whitelime)
+     1. 学习书籍《底池限注奥马哈扑克‑大局策略》(Jeff Hwang )
+     2. 在[Deucescracked.com](https://Deucescracked.com)上学习视频系列2X6(Vanessa  Selbst  &  Whitelime)
     
