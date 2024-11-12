@@ -12,7 +12,7 @@
     - [1.4 扑克工具](#14-扑克工具)
   - [1.3 学习计划](#13-学习计划)
     - [1.3.1 学习《底池限注奥马哈扑克-大牌策略》（Hwang）](#131-学习底池限注奥马哈扑克-大牌策略hwang)
-    - [1.3.2 在Deucescracked.com上学习视频系列2 X 6 (Vanessa Selbst & Whitelime)](#132-在Deucescracked.com上学习视频系列2-X-6 (Vanessa-Selbst-Whitelime))
+    - [1.3.2 在Deucescracked.com上学习视频系列2 X 6 (Vanessa Selbst & Whitelime)](#132-在deucescrackedcom上学习视频系列2-x-6-vanessa-selbst--whitelime)
     - [1.3.3 多练习](#133-多练习)
     - [1.3.4 学习《高级底池限注奥马哈-第1卷：小球和短手牌游戏》（Hwang）](#134-学习高级底池限注奥马哈-第1卷小球和短手牌游戏hwang)
     - [1.3.5 尽可能多地学习视频，尽可能多地玩。](#135-尽可能多地学习视频尽可能多地玩)
@@ -166,7 +166,7 @@ ProPokerTools Omaha Simulator是一款权益计算器，既可用于特定手牌
 
 **示例**
 
-您正在玩 $5PLO（盲注$0.02和$0.05）。UTG($5)将底池加注到$0.17，您($5)3-bet到$0.40（略低于底池）在按钮位置，盲注弃牌，UTG 4-bet将底池加注到$1.27，您跟注（并且您假设UTG的4-bet意味着他几乎总是有AAxx）。
+您正在玩 $5PLO（盲注$0.02和$0.05）。UTG($5)将底池加注到$0.17，您![9s](pokerimg/9s.jpg) ![8s](pokerimg/8s.jpg) ![7h](pokerimg/7h.jpg) ![6h](pokerimg/6h.jpg)($5)3-bet到$0.40（略低于底池）在按钮位置，盲注弃牌，UTG 4-bet将底池加注到$1.27，您跟注（并且您假设UTG的4-bet意味着他几乎总是有AAxx）。
 
 **Flop**：![3d](pokerimg/3d.jpg) ![Tc](pokerimg/Tc.jpg) ![6s](pokerimg/6s.jpg)（$2.61）
 UTG($3.73)下注$2.61，您($3.73)全押加注，UTG ![As](pokerimg/As.jpg) ![Ac](pokerimg/Ac.jpg) ![Kd](pokerimg/Kd.jpg) ![2c](pokerimg/2c.jpg)跟注（正如您所假设的）。
