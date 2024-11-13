@@ -166,21 +166,21 @@ ProPokerTools Omaha Simulator是一款权益计算器，既可用于特定手牌
 
 **示例**
 
-您正在玩 $5PLO（盲注$0.02和$0.05）。UTG($5)将底池加注到$0.17，您![9s](pokerimg/9s.jpg) ![8s](pokerimg/8s.jpg) ![7h](pokerimg/7h.jpg) ![6h](pokerimg/6h.jpg)($5)3-bet到$0.40（略低于底池）在按钮位置，盲注弃牌，UTG 4-bet将底池加注到$1.27，您跟注（并且您假设UTG的4-bet意味着他几乎总是有AAxx）。
+您正在玩 $5PLO（盲注$0.02和$0.05）。UTG($5)将底池加注到$0.17，您![9s](p/9s.jpg) ![8s](p/8s.jpg) ![7h](p/7h.jpg) ![6h](p/6h.jpg)($5)3-bet到$0.40（略低于底池）在按钮位置，盲注弃牌，UTG 4-bet将底池加注到$1.27，您跟注（并且您假设UTG的4-bet意味着他几乎总是有AAxx）。
 
-**Flop**：![3d](pokerimg/3d.jpg) ![Tc](pokerimg/Tc.jpg) ![6s](pokerimg/6s.jpg)（$2.61）
-UTG($3.73)下注$2.61，您($3.73)全押加注，UTG ![As](pokerimg/As.jpg) ![Ac](pokerimg/Ac.jpg) ![Kd](pokerimg/Kd.jpg) ![2c](pokerimg/2c.jpg)跟注（正如您所假设的）。
+**Flop**：![3d](p/3d.jpg) ![Tc](p/Tc.jpg) ![6s](p/6s.jpg)（$2.61）
+UTG($3.73)下注$2.61，您($3.73)全押加注，UTG ![As](p/As.jpg) ![Ac](p/Ac.jpg) ![Kd](p/Kd.jpg) ![2c](p/2c.jpg)跟注（正如您所假设的）。
 
-**Turn**：![3d](pokerimg/3d.jpg) ![Tc](pokerimg/Tc.jpg) ![6s](pokerimg/6s.jpg) ![Kh](pokerimg/Kh.jpg)（$10.07）
+**Turn**：![3d](p/3d.jpg) ![Tc](p/Tc.jpg) ![6s](p/6s.jpg) ![Kh](p/Kh.jpg)（$10.07）
 
-**River**：![3d](pokerimg/3d.jpg) ![Tc](pokerimg/Tc.jpg) ![6s](pokerimg/6s.jpg) ![Kh](pokerimg/Kh.jpg) ![4sh](pokerimg/4s.jpg)（$10.07）
+**River**：![3d](p/3d.jpg) ![Tc](p/Tc.jpg) ![6s](p/6s.jpg) ![Kh](p/Kh.jpg) ![4sh](p/4s.jpg)（$10.07）
 UTG 以AA获胜。您现在想知道在假设UTG有AA的情况下您的翻牌加注是否正确。
 
 您选择在位置上用优质双花色牌3-bet，以便与加注者进行单挑。他4-bet您，下注到最大金额。您认为这意味着他有AAxx，然后跟注，计划每当您翻牌时对他的假定牌有足够的权益时，就加注他的（预期）翻牌c-bet all-in。您翻牌时拿到了低对+内圈包裹顺子+后门同花听牌，然后您按计划加注all-in。
 
 现在我们可以使用ProPokerTools来计算我们对AAxx的翻牌权益：
 
-![](pokerimg/1-1.jpg)
+![](p/1-1.jpg)
 
 在这次翻牌中，我们几乎与AAxx形成掷硬币（50%：50%），而且由于底池为$2.61，剩下$3.73可下注，我们已下注。因此我们全押。这意味着我们投资$3.73赢得总底池$2.61 + 2 x $3.73 = $10.07（翻牌前底池 + 双方剩余筹码），我们有47.45% 的权益，因此我们在翻牌时全押的EV为：
 
@@ -212,7 +212,7 @@ EV = 0.4745($10.07) - $3.73 = +$1.05
 
 记住这两种分类方案以及属于它们的所有手牌。然后，您将有一个框架来快速评估您的起手牌的质量，并且您还将很好地理解不同类型的起手牌所偏好的不同条件。
 
-例如，如果您拿到了![Ah](pokerimg/Ah.jpg) ![Kd](pokerimg/Kd.jpg) ![Qh](pokerimg/Qh.jpg) ![9c](pokerimg/9c.jpg)，您会立即将其标记为“A高百老汇包牌”，并且您会知道这是一手可以从任何位置加注的优质手牌。但是将这手牌更改为![Ah](pokerimg/Ah.jpg) ![Kd](pokerimg/Kd.jpg) ![Qh](pokerimg/Qh.jpg) ![2c](pokerimg/2c.jpg)，您现在知道您有一手“同花A牌”，它属于“边缘牌”类别，并且需要有位置才能玩。
+例如，如果您拿到了![Ah](p/Ah.jpg) ![Kd](p/Kd.jpg) ![Qh](p/Qh.jpg) ![9c](p/9c.jpg)，您会立即将其标记为“A高百老汇包牌”，并且您会知道这是一手可以从任何位置加注的优质手牌。但是将这手牌更改为![Ah](p/Ah.jpg) ![Kd](p/Kd.jpg) ![Qh](p/Qh.jpg) ![2c](p/2c.jpg)，您现在知道您有一手“同花A牌”，它属于“边缘牌”类别，并且需要有位置才能玩。
 
 请注意，我们并不是试图用这些分类来构建翻牌前方案。我们想要的是“训练次序”，可以帮助我们快速评估我们拿到的手牌的质量和可玩性。
 
