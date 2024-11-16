@@ -12,7 +12,7 @@
       3. [1.2.3 扑克工具](#123-扑克工具)    
   3. [1.3 学习计划](#13-学习计划)     
       1. [1.3.1 学习《底池限注奥马哈扑克-大局策略》（Hwang）](#131-学习底池限注奥马哈扑克-大局策略hwang)    
-      2. [1.3.2 在Deucescracked.com上学习视频系列(Vanessa Selbst & Whitelime)](#132-在deucescrackedcom上学习视频系列vanessa-selbst--whitelime)    
+      2. [1.3.2 在Deucescracked.com上学习视频系列（Vanessa Selbst & Whitelime）](#132-在deucescrackedcom上学习视频系列vanessa-selbst--whitelime)    
       3. [1.3.3 多练习](#133-多练习)    
       4. [1.3.4 学习《高级底池限注奥马哈-第1卷：小球和短手牌游戏》（Hwang）](#134-学习高级底池限注奥马哈-第1卷小球和短手牌游戏hwang)    
       5. [1.3.5 尽可能多地学习视频，尽可能多地玩。](#135-尽可能多地学习视频尽可能多地玩)    
@@ -122,13 +122,13 @@ Hwang随后转向翻牌后游戏，并讨论了底池限注奥马哈的翻牌后
 
 **Deucescracked.com**
 
-- 视频系列(Vanessa Selbst和Whitelime)
+- 视频系列（Vanessa Selbst和Whitelime）
 
 这是一个8部分的入门系列，其中PLO专家Vanessa Selbst（她还拥有PLO的WSOP手镯）帮助NLHE专家Whitelime过渡到PLO。Whitelime擅长提出相关问题，并且讨论中会出现许多有趣的话题。
 
-- 视频系列PLO(Whitelime和Phil Galfond)
+- 视频系列PLO（Whitelime和Phil Galfond）
 
-Whitelime在另一个8部分系列中继续他的PLO学习，这次与独一无二的Phil Galfond(OMGClayAiken/Jman28)一起。当您听Phil Galfond解释PLO概念时，您的大脑将充满光明。
+Whitelime在另一个8部分系列中继续他的PLO学习，这次与独一无二的Phil Galfond（OMGClayAiken/Jman28）一起。当您听Phil Galfond解释PLO概念时，您的大脑将充满光明。
 
 **Cardrunners.com**
 
@@ -217,7 +217,7 @@ EV = 0.4745($10.07) - $3.73 = + $1.05
 
 另外，在放下这本书之前，请确保你理解翻牌后ABC玩法（基本玩法）的原则，特别是大底池情况和小底池情况之间的区别。
 
-### 1.3.2 在Deucescracked.com上学习视频系列(Vanessa Selbst & Whitelime)
+### 1.3.2 在Deucescracked.com上学习视频系列（Vanessa Selbst & Whitelime）
 
 Vanessa Selbst的打法从根本上讲是严谨而扎实的，她会教你如何避免麻烦牌和麻烦局面。这种方法类似于你刚刚学习的书，现在你有机会看到书中的原则如何应用于6-max游戏。
 
