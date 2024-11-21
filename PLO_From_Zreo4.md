@@ -61,13 +61,21 @@
 - 高对带有同花色和相连边牌
 
 **示例：**
+
 ![Ad](p/Ad.jpg) ![Ac](p/Ac.jpg) ![Jd](p/Jd.jpg) ![Jh](p/Jh.jpg)
+
 ![As](p/Ah.jpg) ![Ac](p/Ac.jpg) ![Js](p/Js.jpg) ![Tc](p/Tc.jpg)
+
 ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Qd](p/Qd.jpg)
+
 ![As](p/As.jpg) ![Qh](p/Qh.jpg) ![Jh](p/Jh.jpg) ![Td](p/Td.jpg)
+
 ![Ah](p/Ah.jpg) ![Ks](p/Ks.jpg) ![Jh](p/Jh.jpg) ![9c](p/9c.jpg)
+
 ![Ts](p/Ts.jpg) ![9s](p/9s.jpg) ![8h](p/8h.jpg) ![7h](p/7h.jpg)
+
 ![Jh](p/Jh.jpg) ![Ts](p/Ts.jpg) ![9h](p/9h.jpg) ![7c](p/7c.jpg)
+
 ![Kd](p/Kd.jpg) ![Qs](p/Qs.jpg) ![Qc](p/Qc.jpg) ![Jd](p/Jd.jpg)
 
 #### 4.2.2 投机牌
@@ -145,8 +153,11 @@ UTG弃牌，MP弃牌，CO弃牌，您手握弱牌xxxx，正在考虑松散地偷
 以下是一些可以在此场景中玩的垃圾牌类别的牌：
 
 xxxx = ![Js](p/Js.jpg) ![7s](p/7s.jpg) ![6d](p/6d.jpg) ![4c](p/4c.jpg) 
+
 xxxx = ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![6h](p/6h.jpg) ![5s](p/5s.jpg)
+
 xxxx = ![Tc](p/Tc.jpg) ![Ts](p/Ts.jpg) ![7c](p/7c.jpg) ![6h](p/6h.jpg)
+
 xxxx = ![Qd](p/Qd.jpg) ![Tc](p/Tc.jpg) ![8h](p/8h.jpg) ![3d](p/3d.jpg)
 
 换句话说：*任何具有最低协调性的手牌（最好是同花）都是在弱盲注的情况下进行松散按钮偷牌加注的候选。*
