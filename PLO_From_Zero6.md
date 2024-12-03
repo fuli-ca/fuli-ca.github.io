@@ -378,3 +378,132 @@ AA** ! AAA*
 
 为了弄清这个问题，我们需要进行一些实验。在之前的文章中，我们已经使用翻牌权益分布进行了大量数学建模，我们将再次使用这个“方法”。
 
+### 6.3.2 防御 AAxx 4-bet 的模型，持有 100 BB 筹码
+
+以下是我们的模型：
+
+- 对手在 CO 位置加注到 3.5 BB
+- 我们在按钮位置 3-bet 到 12 BB
+- 对手用 AAxx 4-bet 到 37.5 BB，我们跟注
+- 对手在翻牌圈持续下注全压
+- 当我们在翻牌圈有足够的权益（31%）时跟注
+
+跟注 4-bet（37.5 BB）花费我们 25.5 BB。翻牌圈底池现在有 75 BB，剩余筹码为 62.5 BB。对手现在持续下注最后 62.5 BB 全压。我们的底池赔率为 (75 + 62.5) : 62.5 = 137.5 : 62.5 = 2.2 : 1。我们需要 1 / (2.2 + 1) = 0.31 = 31% 的权益才能获利。
+
+现在我们确定跟注翻牌前 4 次下注的 EV：
+
+我们在翻牌前 1% 的翻牌中跟注对手的全压 c-bet，其中我们至少有 31% 的权益。否则我们弃牌并损失我们跟注的金额（25.5 BB）。当我们跟注全压时，我们在 201.5 BB 底池中平均拥有翻牌权益 *av_equity*，截至我们跟注 4 次下注时，我们已经投入了 88 BB。
+
+我们从翻牌权益分布图中找到 *top_x* 和 *av_equity*，然后根据以下公式计算跟注 4-bet 的 EV：
+
+EV(跟注 4-bet) = (1 - top_x)(-25.5 BB) + top_x(av_equity(201.5 BB) - 88 BB)
+
+现在我们挑选一些有代表性的 3-bet 牌型用于我们的模型。我们记得，我们 3-bet 的核心策略在概念上区分了 3 种类型的 3-bet：
+
+- 价值 3-bet
+- 投机 3-bet
+- 诈唬 3-bet
+
+### 6.3.3 当我们 3-bet 以获得价值，并被 AAxx 的 4-bet 时
+
+我们 3-bet 以获得价值的核心策略是：
+
+- 优质 AAxx，至少是单同花，有一对、2 张百老汇牌或一个连张
+- 优质百老汇包牌，至少是单同花，最好有一张 A
+- 优质 KKxx、QQxx、JJxx，至少是单同花，有连张的边牌或另一对高牌
+
+使用 AAxx 我们 5-bet 全压，因此有趣的情况是百老汇包牌和优质对子。我们首先从此类别中挑选 5 手超优质双同花牌（即我们的最佳情况）：
+
+- ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Qh](p/Qh.jpg)
+- ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg)
+- ![Qs](p/Qs.jpg) ![Qh](p/Qh.jpg) ![Js](p/Js.jpg) ![Th](p/Th.jpg)
+- ![Js](p/Js.jpg) ![Jh](p/Jh.jpg) ![Ts](p/Ts.jpg) ![9h](p/9h.jpg)
+- ![As](p/As.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg)
+
+以下是每手牌的翻牌权益分布，以及跟注 4-bet 的计算 EV：
+
+#### 6.3.3.1 优质双同花两对（KsKhQsQh）vs AAxx：
+
+![](p/6-2.jpg)
+
+EV(跟注 4-bet) = (1 - 0.46)(-25.5 BB) + 0.46(0.657(201.5 BB) - 88 BB)
+
+= +6.66 BB
+
+#### 6.3.3.2 优质双同花 + 连张 KKxx（KsKhQsJh）vs AAxx：
+
+![](p/6-3.jpg)
+
+EV(跟注 4-bet) = (1 - 0.48)(-25.5 BB) + 0.48(0.591(201.5 BB) - 88 BB)
+
+= +1.61 BB
+
+#### 6.3.3.3 优质双同花 + 连张 QQxx（QsQhJsTh）vs AAxx：
+
+![](p/6-4.jpg)
+
+EV(跟注 4-bet) = (1 - 0.54)(-25.5 BB) + 0.54(0.583(201.5 BB) - 88 BB)
+
+= +4.19 BB
+
+#### 6.3.3.4 优质双同花 + 连张 JJxx（JsJhTs9h）vs AAxx：
+
+![](p/6-5.jpg)
+
+EV(跟注 4-bet) = (1 - 0.56)(-25.5 BB) + 0.56(0.582(201.5 BB) - 88 BB)
+
+= +5.20 BB
+
+#### 6.3.3.5 优质双同花 A 高百老汇包牌（AsKhQsJh）vs AAxx：
+
+![](p/6-6.jpg)
+
+EV(跟注 4-bet) = (1 - 0.52)(-25.5 BB) + 0.52(0.541(201.5 BB) - 88 BB)
+
+= -1.34 BB
+
+#### 6.3.3.6 价值 3bet 范围中优质双同花牌的 EV 总结：
+
+- ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Qh](p/Qh.jpg) ：+6.66 BB
+- ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg) ：+1.61 BB
+- ![Qs](p/Qs.jpg) ![Qh](p/Qh.jpg) ![Js](p/Js.jpg) ![Th](p/Th.jpg) ：+4.19 BB
+- ![Js](p/Js.jpg) ![Jh](p/Jh.jpg) ![Ts](p/Ts.jpg) ![9h](p/9h.jpg) ：+5.20 BB
+- ![As](p/As.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg) ：-1.34 BB
+
+我们观察到，我们可以用具有双花色和相连边牌的高对子有利可图地跟注，但即使是双同花，A 高百老汇包牌也应该弃牌。
+
+我们注意到 QQxx 和 JJxx 的表现优于 KKxx。原因是对手的 AAxx 手牌阻止了 KKxx 可以形成的许多顺子，而较小的对子形成更多不涉及 A 的顺子。为了调查这种趋势是否会在更小的对子中继续，我们还将对具有双同花和相连边牌的低对子进行模拟。
+
+- ![7s](p/7s.jpg) ![7h](p/7h.jpg) ![6s](p/6s.jpg) ![5h](p/5h.jpg)
+
+我们还将对价值 3-bet 范围中的 Axxx 牌进行更多研究，为此，我们还包括带有 A 的双同花对子：
+
+- ![As](p/As.jpg) ![Kh](p/Kh.jpg) ![Ks](p/Ks.jpg) ![Jh](p/Jh.jpg)
+- ![As](p/As.jpg) ![Qh](p/Qh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg)
+- ![As](p/As.jpg) ![Jh](p/Jh.jpg) ![Js](p/Js.jpg) ![Th](p/Th.jpg)
+
+最后，我们将通过计算上述所有单同花版本的 EV 来研究拥有两套同花的影响。然后，我们将其中一张牌变成梅花（ ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Qc](p/Qc.jpg) ， ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jc](p/Jc.jpg) 等），并进行另一轮翻牌权益分布模拟。我们不会在这里包含所有图表和计算，我们只是列出结果：
+
+#### 6.3.3.7 我们价值 3-bet 范围中的牌的最终数据集：
+以下是迄今为止讨论的所有牌跟注 4-bet 的 EV。我们列出了双花色版本，按类型排序（成对/非成对以及有或无 A）。单同花牌的 EV 在括号中：
+
+- ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Qh](p/Qh.jpg) ：+6.66 BB（+2.63 BB）
+- ![Ks](p/Ks.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg) ：+1.61 BB（-2.74 BB）
+- ![Qs](p/Qs.jpg) ![Qh](p/Qh.jpg) ![Js](p/Js.jpg) ![Th](p/Th.jpg) ：+4.19 BB（+0.03 BB）
+- ![Js](p/Js.jpg) ![Jh](p/Jh.jpg) ![Ts](p/Ts.jpg) ![9h](p/9h.jpg) ：+5.20 BB（+1.14 BB）
+- ![7s](p/7s.jpg) ![7h](p/7h.jpg) ![6s](p/6s.jpg) ![5h](p/5h.jpg) ：+6.01 BB（+2.02 BB）
+- ![As](p/As.jpg) ![Kh](p/Kh.jpg) ![Ks](p/Ks.jpg) ![Jh](p/Jh.jpg) ：-1.04 BB（-3.83 BB）
+- ![As](p/As.jpg) ![Qh](p/Qh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg) ：+0.21 BB（-3.37 BB）
+- ![As](p/As.jpg) ![Jh](p/Jh.jpg) ![Js](p/Js.jpg) ![Th](p/Th.jpg) ：+1.31 BB（-2.61 BB）
+- ![As](p/As.jpg) ![Kh](p/Kh.jpg) ![Qs](p/Qs.jpg) ![Jh](p/Jh.jpg) ：-1.34 BB（-5.79 BB）
+
+#### 6.3.3.8 用价值 3-bet 范围中的牌跟注 4-bet 的结论：
+
+我们可以从上面的数据集得出一些结论：
+
+高两对可以有利可图地跟注 AAxx，无论是单同花还是双同花。如果我们做过模拟，我们可能会看到 JJTT 表现优于 KKQQ，因为它有更好的顺子潜力（AAxx 阻挡了更多 KKQQ 的顺子）。我们还可以用双同花和相连边牌的单对跟注，并弃掉所有不成对的 A 高牌。
+
+对于高对来说，拥有 2 种同花非常重要，你可以弃掉单同花的 KKxx 和 QQxx。但你可以用单同花和相连边牌的 JJxx 及更低的对子牌跟注。我们不会像 ![7s](p/7s.jpg) ![7h](p/7h.jpg) ![6s](p/6s.jpg) ![5h](p/5h.jpg) 那样默认 3bet 低对，但有趣的是，这些对子对抗 AAxx 的表现优于 KKxx 和 QQxx（因为顺子阻断效应）。
+
+我们注意到所有 Axxx 牌对抗 AAxx 都很吃力。这是显而易见的，因为这些牌实际上只有 3 张牌在玩。不成对的 A 高百老汇包牌应该始终弃牌，无论花色如何。AKKx 也是如此，而双同花的 AQQx 和 AJJx 是边缘跟注（同样是因为顺子阻断效应）。
+
