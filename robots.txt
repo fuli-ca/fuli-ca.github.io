@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://fuli.ca/sitemap.xml
+Sitemap: /sitemap.xml
