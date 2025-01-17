@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>复利网 fuli.ca</title>
-    <link>/</link>
-    <description>Recent content on 复利网 fuli.ca</description>
+    <title>Posts on 复利网 fuli.ca</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on 复利网 fuli.ca</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从零开始学习_PLO_10</title>
       <link>/posts/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0_plo_10/</link>
@@ -91,13 +91,6 @@
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
       <guid>/posts/%E4%BB%8E%E5%A4%B4%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0_plo_1/</guid>
       <description>在第 1 部分中，我将首先讨论本系列的背景及其结构。然后我将概述目前市场上（在我看来）最好的 PLO 学习材料，我们将以从文献和视频中学习基本 PLO 理论。</description>
-    </item>
-    <item>
-      <title>关于复利网</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
-      <description>据传爱因斯坦说复利是世界第八大奇迹，巴菲特靠年均约 20% 的复利曾排名世界首富。认识复利的威力并坚持执行的确可以带来惊人的效果。本站会讨论一些和复</description>
     </item>
   </channel>
 </rss>
