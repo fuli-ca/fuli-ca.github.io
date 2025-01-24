@@ -1,12 +1,11 @@
 ---
-title: '从零开始学习_PLO_13B'
+title: '从零开始学习奥马哈_13B'
 date: 2025-01-20
 draft: false
 
 author: 翻译：东山
 tags :
-  - "Poker"
-  - "PLO"
+  - "扑克"
   - "奥马哈"
 categories : "教程"
 summary: "第 13B 部分讨论在有利位置单挑的 c-bet 时如何构建加注牌、过牌、诈唬牌范围。"

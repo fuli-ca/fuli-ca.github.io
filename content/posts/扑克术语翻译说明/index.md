@@ -1,10 +1,10 @@
 ---
-title : 'Poker_术语翻译说明'
+title : '扑克术语翻译说明'
 date : 2025-01-02
 draft : false
 author: 翻译：东山
 tags :
-  - "Poker"
+  - "扑克"
 categories : "教程"
 summary: ""
 ShowToc: true

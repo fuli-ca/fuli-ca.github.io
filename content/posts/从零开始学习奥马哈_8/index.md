@@ -1,11 +1,10 @@
 ---
-title: '从零开始学习_PLO_8'
+title: '从零开始学习奥马哈_8'
 date: 2025-01-14
 draft: false
 author: 翻译：东山
 tags :
-  - "Poker"
-  - "PLO"
+  - "扑克"
   - "奥马哈"
 categories : "教程"
 summary: "第 8 部分的主题是：翻牌后规划的一般原则，评估翻牌后情况。"

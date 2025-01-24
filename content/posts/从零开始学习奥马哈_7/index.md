@@ -1,11 +1,10 @@
 ---
-title: '从零开始学习_PLO_7'
+title: '从零开始学习奥马哈_7'
 date: 2025-01-12
 draft: false
 author: 翻译：东山
 tags :
-  - "Poker"
-  - "PLO"
+  - "扑克"
   - "奥马哈"
 categories : "教程"
 summary: "在第 7 部分中，我们讨论 1、低级别 PLO 玩家池，2、各种翻牌前和翻牌后 HEM 统计数据的合理价值范围，3、如何为 PLO 6-max 设计一个简单的 HEM HUD。"

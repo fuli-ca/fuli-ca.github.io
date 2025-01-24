@@ -1,11 +1,10 @@
 ---
-title : '从零开始学习_PLO_10'
+title : '从零开始学习奥马哈_10'
 date : 2025-01-16
 draft : false
 author: 翻译：东山
 tags :
-  - "Poker"
-  - "PLO"
+  - "扑克"
   - "奥马哈"
 categories : "教程"
 summary: "第 10 部分将围绕两个主题：1. 讨论翻牌时的持续下注，2. 说明整个过程中的系统性翻牌后规划。"

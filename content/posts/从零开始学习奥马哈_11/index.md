@@ -1,11 +1,10 @@
 ---
-title : '从零开始学习_PLO_11'
+title : '从零开始学习奥马哈_11'
 date : 2025-01-16
 draft : false
 author: 翻译：东山
 tags :
-  - "Poker"
-  - "PLO"
+  - "扑克"
   - "奥马哈"
 categories : "教程"
 summary: "在第 11 部分中，我们将继续讨论第 10 部分开始的持续下注（c-bet），这次重点关注 3-bet 和 4-bet 底池。接下来我们将讨论如何防御 c-bet，然后我们以关于 c-bet 的最重要原则的总结结束本文。"

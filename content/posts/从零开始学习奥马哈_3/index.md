@@ -1,12 +1,11 @@
 ---
-title: "从零开始学习_PLO_3"
+title: "从零开始学习奥马哈_3"
 date: 2024-12-23
 draft: false
 author: 翻译：东山
 ShowToc: true
 tags:
- - "Poker"
- - "PLO"
+ - "扑克"
  - "奥马哈"
 categories: "教程"
 summary: "在第 3 部分中，我们将继续讨论 PLO 翻牌前打法的原则。我们将深入探讨 PLO 起手牌的可玩性概念，既作为手牌结构的函数，也作为我们在翻牌前投入底池的金额的函数。"

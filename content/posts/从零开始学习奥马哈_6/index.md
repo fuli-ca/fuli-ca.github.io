@@ -1,11 +1,10 @@
 ---
-title : '从零开始学习_PLO_6'
+title : '从零开始学习奥马哈_6'
 date : 2025-01-09
 draft : false
 author: 翻译：东山
 tags :
-  - "Poker"
-  - "PLO"
+  - "扑克"
   - "奥马哈"
 categories : "教程"
 summary: "第 6 部分是一篇相当技术性的文章，我们将在其中彻底研究一个狭窄的主题：4-bet，对抗 4-bet。"

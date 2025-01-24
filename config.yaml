@@ -64,6 +64,7 @@ params:
       # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
       keys: ["title", "permalink", "summary", "content"]
       includeMatches: true
+  DateFormat: "2006-01-02"
 
 markup:
   goldmark:
