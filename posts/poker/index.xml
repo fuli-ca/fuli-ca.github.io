@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🃏 扑克 on 复利网 www.fuli.ca</title>
+    <link>https://fuli.ca/posts/poker/</link>
+    <description>Recent content in 🃏 扑克 on 复利网 www.fuli.ca</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fuli.ca/posts/poker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何选择你的扑克游戏：德州扑克还是奥马哈</title>
+      <link>https://fuli.ca/posts/poker/nlheorplo/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://fuli.ca/posts/poker/nlheorplo/</guid>
+      <description>Phil Galfond 讨论无限注德州扑克（No Limit Hold&amp;rsquo;em，NLHE）和底池限注奥马哈（Pot Limit Omaha，PLO）哪个更适合你。</description>
+    </item>
+  </channel>
+</rss>
