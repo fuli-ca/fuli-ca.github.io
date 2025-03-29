@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🔧 技术 on 复利网 www.fuli.ca</title>
+    <link>https://fuli.ca/posts/life/tech/</link>
+    <description>Recent content in 🔧 技术 on 复利网 www.fuli.ca</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fuli.ca/posts/life/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Trello 管理 AI 问答信息指南</title>
+      <link>https://fuli.ca/posts/life/tech/trello/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://fuli.ca/posts/life/tech/trello/</guid>
+      <description>Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。</description>
+    </item>
+  </channel>
+</rss>

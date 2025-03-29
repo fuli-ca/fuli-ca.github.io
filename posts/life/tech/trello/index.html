@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>使用 Trello 管理 AI 问答信息指南 | 复利网 www.fuli.ca</title>
+<meta name="keywords" content="生活, 技术">
+<meta name="description" content="Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。">
+<meta name="author" content="东山">
+<link rel="canonical" href="https://fuli.ca/posts/life/tech/trello/">
+
+  <link rel="canonical" href="https://fuli.ca/posts/life/tech/trello/">
+
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTWWHRVC45"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RTWWHRVC45');
+  </script>
+
+<link crossorigin="anonymous" href="https://fuli.ca/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://fuli.ca/images/fuli.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fuli.ca/images/fuli.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fuli.ca/images/fuli.jpg">
+<link rel="apple-touch-icon" href="https://fuli.ca/images/fuli.jpg">
+<link rel="mask-icon" href="https://fuli.ca/images/fuli.jpg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://fuli.ca/posts/life/tech/trello/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RTWWHRVC45"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MEASUREMENT_ID');
+</script>
+  
+
+<meta property="og:url" content="https://fuli.ca/posts/life/tech/trello/">
+  <meta property="og:site_name" content="复利网 www.fuli.ca">
+  <meta property="og:title" content="使用 Trello 管理 AI 问答信息指南">
+  <meta property="og:description" content="Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-04T00:00:00+00:00">
+    <meta property="article:tag" content="生活">
+    <meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="使用 Trello 管理 AI 问答信息指南">
+<meta name="twitter:description" content="Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "📒 博客",
+      "item": "https://fuli.ca/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "🏖 生活",
+      "item": "https://fuli.ca/posts/life/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "🔧 技术",
+      "item": "https://fuli.ca/posts/life/tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  4 ,
+      "name": "使用 Trello 管理 AI 问答信息指南",
+      "item": "https://fuli.ca/posts/life/tech/trello/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "使用 Trello 管理 AI 问答信息指南",
+  "name": "使用 Trello 管理 AI 问答信息指南",
+  "description": "Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。",
+  "keywords": [
+    "生活", "技术"
+  ],
+  "articleBody": "Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。\nTrello 特性 看板 (Board): 创建不同的看板来分类管理不同主题的 AI 问答信息，例如 “自然语言处理”、“机器学习” 等。 列表 (List): 在每个看板中创建列表来代表不同的阶段或类别，例如 “待处理”、“进行中”、“已完成”、“常见问题” 等。 卡片 (Card): 每条 AI 问答信息都可以创建为一张卡片，卡片可以包含标题、描述、评论、附件、标签等信息。 标签 (Label): 使用标签对卡片进行分类，例如 “技术问题”、“概念解释”、“代码示例” 等，方便后续筛选和查找。 截止日期 (Due Date): 为卡片设置截止日期，提醒自己及时处理相关问题。 成员 (Member): 邀请团队成员协作，共同管理和解答 AI 问答信息。 Power-Ups: Trello 提供丰富的插件扩展功能，例如日历视图、自定义字段、自动化等，可以根据需要选择使用。 Markdown 语言支持 Trello 支持在卡片描述和评论中使用 Markdown 语法，方便您格式化文本内容，例如：\n加粗: **加粗文本** 斜体: *斜体文本* 标题: # 一级标题，## 二级标题，### 三级标题 列表: - 无序列表，1. 有序列表 代码: 代码片段 链接: [链接文字](链接地址) 使用 Markdown 可以使您的 AI 问答信息更加清晰易读，方便后续查阅和理解。\n事后归类查找处理 搜索功能: Trello 提供强大的搜索功能，可以根据关键词、标签、成员、截止日期等条件快速查找相关卡片。 筛选功能: 使用标签、成员、截止日期等条件对卡片进行筛选，快速定位所需信息。 归档功能: 对于已经处理完毕的卡片，可以将其归档，避免看板过于杂乱。 导出功能: Trello 支持将看板、列表或卡片导出为 JSON 或 CSV 格式，方便进行数据备份和分析。 使用建议 保持简洁: 尽量使用简洁明了的语言描述问题和答案，方便后续查找和理解。 善用标签: 合理使用标签对卡片进行分类，可以提高信息管理的效率。 定期整理: 定期对看板进行整理，归档已经处理完毕的卡片，保持看板的整洁和高效。 团队协作: 邀请团队成员共同参与 AI 问答信息的管理，可以集思广益，提高问题解决的效率。 通过以上方法，您可以利用 Trello 高效地管理 AI 问答信息，方便后续的查找、学习和分享。\n",
+  "wordCount" : "860",
+  "inLanguage": "zh",
+  "datePublished": "2025-03-04T00:00:00Z",
+  "dateModified": "2025-03-04T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "东山"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fuli.ca/posts/life/tech/trello/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "复利网 www.fuli.ca",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fuli.ca/images/fuli.jpg"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://fuli.ca/" accesskey="h" title="复利网 fuli.ca (Alt + H)">
+                <img src="https://fuli.ca/images/fuli.jpg" alt="" aria-label="logo"
+                    height="35">复利网 fuli.ca</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://fuli.ca/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>🔍 搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fuli.ca/" title="🏠 主页">
+                    <span>🏠 主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fuli.ca/posts" title="📚 文章">
+                    <span>📚 文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fuli.ca/tags" title="🧩 标签">
+                    <span>🧩 标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fuli.ca/archives/" title="⏱️ 时间轴">
+                    <span>⏱️ 时间轴</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fuli.ca/about" title="🙋🏻‍♂️ 关于">
+                    <span>🙋🏻‍♂️ 关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fuli.ca/guestbook/" title="📋 留言板">
+                    <span>📋 留言板</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://fuli.ca/">主页</a>&nbsp;»&nbsp;<a href="https://fuli.ca/posts/">📒 博客</a>&nbsp;»&nbsp;<a href="https://fuli.ca/posts/life/">🏖 生活</a>&nbsp;»&nbsp;<a href="https://fuli.ca/posts/life/tech/">🔧 技术</a></div>
+    <h1 class="post-title entry-hint-parent">
+      使用 Trello 管理 AI 问答信息指南
+    </h1>
+    <div class="post-meta"><span title='2025-03-04 00:00:00 +0000 UTC'>2025-03-04</span>&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;东山
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#trello-%e7%89%b9%e6%80%a7" aria-label="Trello 特性">Trello 特性</a></li>
+                <li>
+                    <a href="#markdown-%e8%af%ad%e8%a8%80%e6%94%af%e6%8c%81" aria-label="Markdown 语言支持">Markdown 语言支持</a></li>
+                <li>
+                    <a href="#%e4%ba%8b%e5%90%8e%e5%bd%92%e7%b1%bb%e6%9f%a5%e6%89%be%e5%a4%84%e7%90%86" aria-label="事后归类查找处理">事后归类查找处理</a></li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8%e5%bb%ba%e8%ae%ae" aria-label="使用建议">使用建议</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Trello 是一款直观易用的项目管理工具，非常适合用于管理 AI 问答信息。以下指南将介绍 Trello 的特性、Markdown 语言支持，以及如何对信息进行归类、查找和处理。</p>
+<h2 id="trello-特性">Trello 特性<a hidden class="anchor" aria-hidden="true" href="#trello-特性">#</a></h2>
+<ul>
+<li><strong>看板 (Board):</strong>  创建不同的看板来分类管理不同主题的 AI 问答信息，例如 “自然语言处理”、“机器学习” 等。</li>
+<li><strong>列表 (List):</strong>  在每个看板中创建列表来代表不同的阶段或类别，例如 “待处理”、“进行中”、“已完成”、“常见问题” 等。</li>
+<li><strong>卡片 (Card):</strong>  每条 AI 问答信息都可以创建为一张卡片，卡片可以包含标题、描述、评论、附件、标签等信息。</li>
+<li><strong>标签 (Label):</strong>  使用标签对卡片进行分类，例如 “技术问题”、“概念解释”、“代码示例” 等，方便后续筛选和查找。</li>
+<li><strong>截止日期 (Due Date):</strong>  为卡片设置截止日期，提醒自己及时处理相关问题。</li>
+<li><strong>成员 (Member):</strong>  邀请团队成员协作，共同管理和解答 AI 问答信息。</li>
+<li><strong>Power-Ups:</strong>   Trello 提供丰富的插件扩展功能，例如日历视图、自定义字段、自动化等，可以根据需要选择使用。</li>
+</ul>
+<h2 id="markdown-语言支持">Markdown 语言支持<a hidden class="anchor" aria-hidden="true" href="#markdown-语言支持">#</a></h2>
+<p>Trello 支持在卡片描述和评论中使用 Markdown 语法，方便您格式化文本内容，例如：</p>
+<ul>
+<li><strong>加粗:</strong>  <code>**加粗文本**</code></li>
+<li><strong>斜体:</strong>  <code>*斜体文本*</code></li>
+<li><strong>标题:</strong>  <code># 一级标题</code>，<code>## 二级标题</code>，<code>### 三级标题</code></li>
+<li><strong>列表:</strong>  <code>- 无序列表</code>，<code>1. 有序列表</code></li>
+<li><strong>代码:</strong>  <code>代码片段</code></li>
+<li><strong>链接:</strong>  <code>[链接文字](链接地址)</code></li>
+</ul>
+<p>使用 Markdown 可以使您的 AI 问答信息更加清晰易读，方便后续查阅和理解。</p>
+<h2 id="事后归类查找处理">事后归类查找处理<a hidden class="anchor" aria-hidden="true" href="#事后归类查找处理">#</a></h2>
+<ul>
+<li><strong>搜索功能:</strong>  Trello 提供强大的搜索功能，可以根据关键词、标签、成员、截止日期等条件快速查找相关卡片。</li>
+<li><strong>筛选功能:</strong>  使用标签、成员、截止日期等条件对卡片进行筛选，快速定位所需信息。</li>
+<li><strong>归档功能:</strong>  对于已经处理完毕的卡片，可以将其归档，避免看板过于杂乱。</li>
+<li><strong>导出功能:</strong>  Trello 支持将看板、列表或卡片导出为 JSON 或 CSV 格式，方便进行数据备份和分析。</li>
+</ul>
+<h2 id="使用建议">使用建议<a hidden class="anchor" aria-hidden="true" href="#使用建议">#</a></h2>
+<ul>
+<li><strong>保持简洁:</strong>  尽量使用简洁明了的语言描述问题和答案，方便后续查找和理解。</li>
+<li><strong>善用标签:</strong>  合理使用标签对卡片进行分类，可以提高信息管理的效率。</li>
+<li><strong>定期整理:</strong>  定期对看板进行整理，归档已经处理完毕的卡片，保持看板的整洁和高效。</li>
+<li><strong>团队协作:</strong>  邀请团队成员共同参与 AI 问答信息的管理，可以集思广益，提高问题解决的效率。</li>
+</ul>
+<p>通过以上方法，您可以利用 Trello 高效地管理 AI 问答信息，方便后续的查找、学习和分享。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://fuli.ca/tags/%E7%94%9F%E6%B4%BB/">生活</a></li>
+      <li><a href="https://fuli.ca/tags/%E6%8A%80%E6%9C%AF/">技术</a></li>
+    </ul></footer>
+
+<div>
+    <div class="pagination__title">
+        <span class="pagination__title-h" style="font-size: 20px;">💬欢迎评论👉️填写 QQ 邮箱可以自动获取 QQ 头像！</span>
+        <hr />
+    </div>
+    <div id="tcomment"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.all.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      twikoo.init({
+        envId: 'https://twikoo-teal-delta.vercel.app/',
+        el: '#tcomment',
+      });
+    });
+</script>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://fuli.ca/">复利网 www.fuli.ca</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
