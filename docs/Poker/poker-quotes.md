@@ -4,7 +4,12 @@
 
 为了便于浏览，我将这些扑克名言分为以下几类：
 
+<details>
+<summary>目录</summary>
+
 [[toc]]
+
+</details>
 
 请欣赏！
 

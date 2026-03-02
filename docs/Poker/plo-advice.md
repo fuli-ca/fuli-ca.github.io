@@ -1,4 +1,11 @@
-# 我玩底 PLO 赢了 100 万美元，以下是我的心得体会。
+<details>
+<summary>目录</summary>
+
+[[toc]]
+
+</details>
+
+# 我玩底 PLO 赢了 100 万美元的心得体会
 
 ## 介绍
 

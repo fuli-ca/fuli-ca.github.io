@@ -1,6 +1,11 @@
-# 线上扑克玩家颜色分类系统
+<details>
+<summary>目录</summary>
 
-![player-color-1](pics/player-color-1.png)
+[[toc]]
+
+</details>
+
+# 线上扑克玩家颜色分类系统
 
 ## 简介
 
@@ -10,6 +15,8 @@
 * 风格维度（纵向）： 从 紧（Tight） 到 松（Loose），同时结合被动 / 激进的差异。
 
 这两个维度交织后，形成一个 3×3 的矩阵，涵盖了绝大多数线上玩家的风格类型。
+
+![player-color-1](pics/player-color-1.png)
 
 ## Fish 区（休闲玩家）
 

@@ -24,4 +24,4 @@
 
 [什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱](../Poker/lose-gg-lb.md)
 
-[我玩底 PLO 赢了 100 万美元，以下是我的心得体会。](../Poker/plo-advice.md)
+[我玩底 PLO 赢了 100 万美元的心得体会](../Poker/plo-advice.md)

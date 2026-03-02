@@ -1,3 +1,10 @@
+<details>
+<summary>目录</summary>
+
+[[toc]]
+
+</details>
+
 # 为什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱
 
 ## 引言
