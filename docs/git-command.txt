@@ -1,0 +1,12 @@
+npm run docs:build
+
+cd docs\.vitepress\dist
+copy CNAME
+git init
+git add .
+git commit -m "Deploy %date% %time%"
+
+git branch -M main
+git remote remove origin 2>$null
+git remote add origin https://github.com/fuli-ca/fuli-ca.github.io.git
+git push -f origin main

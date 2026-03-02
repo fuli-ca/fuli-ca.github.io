@@ -1,0 +1,37 @@
+/* 增加 outline 宽度并防止被默认样式覆盖 */
+aside.outline {
+  width: 280px !important;
+  max-width: 320px !important;
+}
+
+/* 防止长标题截断 */
+.outline-link {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: break-word !important;
+}
+/* 控制下拉目录的宽度 */
+.VPLocalNavOutlineDropdown {
+  min-width: 320px !important;
+  width: auto !important;
+  max-width: 480px !important;
+}
+
+/* 控制里面的链接显示完整，不换行或截断 */
+.VPLocalNavOutlineDropdown .outline-link {
+  white-space: normal !important;
+  word-break: break-word !important;
+  text-overflow: unset !important;
+}
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-green {
+  color: green;
+}
