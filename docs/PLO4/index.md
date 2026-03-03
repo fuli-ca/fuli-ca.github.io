@@ -14,6 +14,8 @@
 
 [PLO 培训网文章精选](plo-coach/index.md)
 
+[PLO 天才文章精选](plo-genius/index.md)
+
 ## 技术文章
 
 [PLO 快速权益统计](../Poker/quick-stats.md)
