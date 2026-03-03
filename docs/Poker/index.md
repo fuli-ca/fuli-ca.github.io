@@ -15,3 +15,5 @@
 [为什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱](lose-gg-lb.md)
 
 [我玩底 PLO 赢了 100 万美元的心得体会](plo-advice.md)
+
+[PLO5 分类和统计](plo5-combo.md)

@@ -12,6 +12,8 @@
 
 [精通低级别 PLO](mssplo/index.md)
 
+[PLO 培训网文章精选](plo-coach/index.md)
+
 ## 技术文章
 
 [PLO 快速权益统计](../Poker/quick-stats.md)
