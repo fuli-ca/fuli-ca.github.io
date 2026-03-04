@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "复利网"
-# text: "A VitePress Site"
+  text: "PLO 技术资料交流"
   tagline: Keep Studying, Keep Playing, Keep Winning!
   actions:
     - theme: brand
@@ -31,4 +31,4 @@ features:
   - title: PLO 技术培训
     details: 对有志提高 PLO 技术的网友提供学习线路指导，并提供资源，提供 1 对 1 的培训。
 ---
-
+[//]: ♠️♥️♦️♣️
