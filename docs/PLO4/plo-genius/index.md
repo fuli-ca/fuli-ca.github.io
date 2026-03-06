@@ -65,3 +65,5 @@
 [如何 PLO 中位置不利时防守 3-bet](pg32.md)
 
 [PLO 中的 4-bet 策略解析](pg33.md)
+
+[PLO 中如何应对 4-bet？](pg34.md)
