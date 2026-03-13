@@ -21,3 +21,5 @@
 [掌握扑克中的 VPIP：如何从最低 VPIP 游戏中获益](master-vpip.md)
 
 [如何在高 VPIP 的 PLO 游戏中打牌！](play-high-vpip.md)
+
+[ClubGG VPIP 要求：如何在扑克强制游戏中保持盈利](clubgg-vpip.md)
