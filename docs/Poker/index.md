@@ -17,3 +17,7 @@
 [我玩底 PLO 赢了 100 万美元的心得体会](plo-advice.md)
 
 [PLO5 分类和统计](plo5-combo.md)
+
+[掌握扑克中的 VPIP：如何从最低 VPIP 游戏中获益](master-vpip.md)
+
+[如何在高 VPIP 的 PLO 游戏中打牌！](play-high-vpip.md)
