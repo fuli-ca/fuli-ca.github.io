@@ -23,3 +23,5 @@
 [如何在高 VPIP 的 PLO 游戏中打牌！](play-high-vpip.md)
 
 [ClubGG VPIP 要求：如何在扑克强制游戏中保持盈利](clubgg-vpip.md)
+
+[PLO5 策略解析：4 个助你在这个热门 PLO 变体游戏中取得成功的技巧](plo5-strategy.md)
