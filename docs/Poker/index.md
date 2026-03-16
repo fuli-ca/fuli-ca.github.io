@@ -1,5 +1,7 @@
 # 扑克杂谈
 
+[PLO4 起手牌分类](plo4-category.md)
+
 [线上扑克玩家颜色分类系统](player-color.md)
 
 [PLO 快速权益统计](quick-stats.md)
