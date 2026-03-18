@@ -1,11 +1,6 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# PLO 快速权益统计
+---
+title: PLO 快速权益统计
+---
 
 ## 翻牌圈权益
 

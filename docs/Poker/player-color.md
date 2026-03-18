@@ -1,11 +1,8 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# 线上扑克玩家颜色分类系统
+---
+title: 线上扑克玩家颜色分类系统
+author: 东山
+date: 2025-10-01
+---
 
 ## 简介
 

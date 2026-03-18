@@ -1,12 +1,12 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# 一个职业牌手的故事（转载）
-
+---
+title: 一个职业牌手的故事（转载）
+author: 中扑网
+date: 2025-12-24
+cover: pics/poker-pro.jpeg
+categories: [Poker]
+tags: [扑克, GTO]
+readingTime: 5min
+---
 ## （一）从上市公司辞职打德扑，两年职牌生涯以颗粒无收惨淡收场
 
 我是 F。2013 年夏天，我偶然接触到德州扑克，这个游戏像是一道光，让我在平凡的生活里看到了别样的可能。

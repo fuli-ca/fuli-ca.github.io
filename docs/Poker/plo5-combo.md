@@ -1,11 +1,6 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# PLO5 分类和统计
+---
+title: PLO5 分类和统计
+---
 
 ## 介绍
 

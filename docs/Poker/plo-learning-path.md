@@ -1,11 +1,8 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# 奥马哈新手学习线路
+---
+title: 奥马哈新手学习线路
+author: 东山
+date: 2025-10-01
+---
 
 ## 简要分析
 

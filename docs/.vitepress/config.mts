@@ -36,9 +36,11 @@ export default defineConfig({
     ],
 
     sidebar: {
+      
       '/PLO4/': generateSidebar({
         documentRootPath: 'docs',
         scanStartPath: '/PLO4/',
+        useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
@@ -48,6 +50,7 @@ export default defineConfig({
       '/PLO5/': generateSidebar({
         documentRootPath: 'docs',
         scanStartPath: '/PLO5/',
+        useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
@@ -57,6 +60,7 @@ export default defineConfig({
       '/Poker/': generateSidebar({
         documentRootPath: 'docs',
         scanStartPath: '/Poker/',
+        useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,

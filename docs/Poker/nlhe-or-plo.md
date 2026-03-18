@@ -1,11 +1,6 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# 游戏的选择：德州扑克与奥马哈
+---
+title: 游戏的选择：德州扑克与奥马哈
+---
 
 ## 引言
 

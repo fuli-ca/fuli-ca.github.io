@@ -1,4 +1,6 @@
-# 扑克杂谈
+---
+title: 扑克杂谈
+---
 
 [PLO4 起手牌分类](plo4-category.md)
 

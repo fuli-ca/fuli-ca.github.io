@@ -1,11 +1,6 @@
-<details>
-<summary>目录</summary>
-
-[[toc]]
-
-</details>
-
-# 你更适合线上扑克还是现场扑克？
+---
+title: 你更适合线上扑克还是现场扑克？
+---
 
 ## 引言
 
