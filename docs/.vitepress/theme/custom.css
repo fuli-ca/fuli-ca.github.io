@@ -1,77 +1,91 @@
-/* ===============================
-   文章头部整体样式
-=============================== */
+/* ------------------- 文章头部 ------------------- */
 .article-meta {
   margin-bottom: 1.5rem;
-  padding: 0 0.2rem; /* 可选，避免太贴边 */
 }
 
-/* ===============================
-   H1 标题样式
-=============================== */
 .article-title {
+  position: relative;
   font-size: 2.2rem;
   font-weight: 700;
   margin: 1rem 0 0.6rem;
   line-height: 1.3;
-  word-break: break-word; /* 防止标题过长换行 */
 }
 
-/* ===============================
-   作者和日期
-=============================== */
+/* H1 左侧 # */
+.article-title .header-anchor-left {
+  position: absolute;
+  left: -1em;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;  /* 垂直居中 */
+}
+
+.article-title .header-anchor-left a {
+  color: #1d4ed8;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.article-title:hover .header-anchor-left a {
+  opacity: 1;
+}
+
+/* 作者和日期 */
 .meta {
   margin-top: 0.4rem;
   margin-bottom: 1rem;
   color: #888;
-  font-size: 0.95rem;
 }
-
 .meta span {
   margin-right: 1rem;
 }
 
-/* ===============================
-   封面图片
-=============================== */
+/* 封面 */
 .cover {
   width: 100%;
   border-radius: 8px;
   margin: 1rem 0;
-  object-fit: cover;
 }
 
-/* ===============================
-   标签样式
-=============================== */
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-}
-
+/* 标签 */
 .tags span {
   margin-right: 8px;
-  margin-bottom: 6px;
   background: #eee;
   padding: 2px 8px;
   border-radius: 4px;
   font-size: 0.9rem;
-  color: #555;
 }
 
-/* ===============================
-   响应式优化（可选）
-=============================== */
-@media (max-width: 768px) {
-  .article-title {
-    font-size: 1.8rem;
-  }
-  .meta {
-    font-size: 0.9rem;
-  }
-  .tags span {
-    font-size: 0.85rem;
-    padding: 2px 6px;
-  }
+/* ------------------- H2/H3 ------------------- */
+.vp-doc h2,
+.vp-doc h3 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* 隐藏默认锚点 */
+.vp-doc h2 .header-anchor,
+.vp-doc h3 .header-anchor {
+  display: none !important;
+}
+
+/* 自定义 # */
+/* H2/H3 自定义 # 调整到文字底部对齐 */
+.vp-doc h2::before,
+.vp-doc h3::before {
+  content: "#";
+  position: absolute;
+  left: -1em;           /* 左侧位置 */
+  bottom: 0;            /* 靠文字底部 */
+  color: #1d4ed8;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.vp-doc h2:hover::before,
+.vp-doc h3:hover::before {
+  opacity: 1;
 }

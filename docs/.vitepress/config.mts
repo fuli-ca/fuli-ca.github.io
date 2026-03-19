@@ -19,8 +19,8 @@ export default defineConfig({
     ['meta', { name: 'baidu-site-verification', content: 'codeva-srw2M5E7ML' }]
   ],
   themeConfig: {
-    outline: false,
-    aside: false,
+    outline: [1, 3],
+    aside: true,
     docFooter: {
       prev: false,
       next: false
