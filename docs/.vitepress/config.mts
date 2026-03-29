@@ -9,6 +9,8 @@ export default defineConfig({
 
   // 添加 Google Analytics 跟踪代码
   head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-RTWWHRVC45' }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
@@ -19,6 +21,7 @@ export default defineConfig({
     ['meta', { name: 'baidu-site-verification', content: 'codeva-srw2M5E7ML' }]
   ],
   themeConfig: {
+    logo: '/fulilogo-1.png',
     outline: [1, 3],
     aside: true,
     docFooter: {
@@ -26,6 +29,7 @@ export default defineConfig({
       next: false
     },
     // https://vitepress.dev/reference/default-theme-config
+       
     nav: [
       { text: '主页', link: '/' },
       { text: 'PLO4', link: '/PLO4/' },

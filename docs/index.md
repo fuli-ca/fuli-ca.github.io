@@ -6,6 +6,10 @@ hero:
   name: "复利网"
   text: "PLO 技术资料交流"
   tagline: Keep Studying, Keep Playing, Keep Winning!
+  image:
+    src: fulilogo.png
+    alt: /Logo
+    position: right
   actions:
     - theme: brand
       text: 从零开始学习 PLO
