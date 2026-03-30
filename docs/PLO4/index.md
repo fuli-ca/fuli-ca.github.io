@@ -22,9 +22,7 @@ title: PLO4 资料
 
 [PLO4 起手牌分类](../Poker/plo4-category.md)
 
-[PLO 快速权益统计](../Poker/quick-stats.md)
-
-[游戏的选择：德州扑克与奥马哈](../Poker/nlhe-or-plo.md)
+[PLO4 快速权益统计](../Poker/quick-stats.md)
 
 [线上扑克玩家颜色分类系统](../Poker/player-color.md)
 
