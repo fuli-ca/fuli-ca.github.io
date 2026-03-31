@@ -11,3 +11,5 @@ title: 扑克杂谈
 [一个职业牌手的故事（转载）](pro-story.md)
 
 [100 条最佳的扑克名言（转载）](poker-quotes.md)
+
+[如何在扑克牌游戏中摆脱困境：你具备获胜的实力吗？](unstuck-poker.md)
