@@ -42,6 +42,7 @@ export default defineConfig({
     sidebar: {
       
       '/PLO4/': generateSidebar({
+        sortMenusByFrontmatterDate: true,
         documentRootPath: 'docs',
         scanStartPath: '/PLO4/',
         useTitleFromFrontmatter: true,
@@ -52,6 +53,7 @@ export default defineConfig({
       }),
 
       '/PLO5/': generateSidebar({
+        sortMenusByFrontmatterDate: true,
         documentRootPath: 'docs',
         scanStartPath: '/PLO5/',
         useTitleFromFrontmatter: true,
@@ -62,6 +64,7 @@ export default defineConfig({
       }),
 
       '/Poker/': generateSidebar({
+        sortMenusByFrontmatterDate: true,
         documentRootPath: 'docs',
         scanStartPath: '/Poker/',
         useTitleFromFrontmatter: true,
