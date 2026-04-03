@@ -1,7 +1,7 @@
 ---
 title: 一个职业牌手的故事（转载）
 author: 中扑网
-date: 2025-12-24
+date: 2025-08-02
 # cover: ./pics/poker-pro.jpeg
 categories: [Poker]
 tags: [扑克, GTO]
