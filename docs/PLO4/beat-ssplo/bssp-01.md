@@ -11,7 +11,7 @@ title: 第一天 - 位置
 | --- | --- |
 | UTG  | 枪口位 |
 | MP | 中位 |
-| CO |  截止位 |
+| CO | 截止位 |
 | BTN | 按钮位 |
 | SB  | 小盲注位 |
 | BB | 大盲注位 |
@@ -40,11 +40,11 @@ title: 第一天 - 位置
 
 1. 与不利位置相比，我们在翻牌后在有利位置游戏有哪些优势？
 2. 为什么我们在 3 人底池中的相对位置可能比我们的绝对位置更重要？
-3. 在以下情况下，我们的 i) 绝对位置和 ii) 相对位置分别是什么？
-3a) Hero 在 CO 位置：UTG 弃牌，MP 加注，Hero 跟注（BTN，SB，BB 弃牌）
-3b) Hero 在 BB 位置：UTG 弃牌，MP 加注，CO 弃牌，BTN 弃牌，SB 再加注，Hero 跟注，MP 弃牌
-3c) Hero 在 BTN 位置：UTG 加注，MP 跟注，CO 再加注，Hero 跟注，SB 弃牌，BB 弃牌，UTG 跟注
-3d) Hero 在 BB 位置：UTG 跟注，MP 加注，CO 弃牌，BTN 跟注，SB 弃牌，Hero 跟注，UTG 弃牌
+3. 在以下情况下，我们的 [i] 绝对位置和 [ii] 相对位置分别是什么？
+[3a] Hero 在 CO 位置：UTG 弃牌，MP 加注，Hero 跟注（BTN，SB，BB 弃牌）
+[3b] Hero 在 BB 位置：UTG 弃牌，MP 加注，CO 弃牌，BTN 弃牌，SB 再加注，Hero 跟注，MP 弃牌
+[3c] Hero 在 BTN 位置：UTG 加注，MP 跟注，CO 再加注，Hero 跟注，SB 弃牌，BB 弃牌，UTG 跟注
+[3d] Hero 在 BB 位置：UTG 跟注，MP 加注，CO 弃牌，BTN 跟注，SB 弃牌，Hero 跟注，UTG 弃牌
 
 ## 答案
 
@@ -64,7 +64,7 @@ title: 第一天 - 位置
     
     如果 BTN 弃牌，那么 Hero 就会知道他只在面对翻牌前主动玩家单挑。如果 BTN 跟注或加注，那么 Hero 无需投入任何筹码就能了解 BTN 的牌力。
     
-3. **在以下情况下，我们的 i) 绝对位置和 ii) 相对位置分别是什么？**
+3. **在以下情况下，我们的 [i] 绝对位置和 [ii] 相对位置分别是什么？**
     1. Hero 在 CO：UTG 弃牌，MP 加注，Hero 跟注（BTN，SB，BB 弃牌）
         1. 我们拥有最佳的绝对位置，因为我们比对手更靠近 BTN 的右侧。
         2. 因为底池是单挑，我们的相对位置等于我们的绝对位置。
