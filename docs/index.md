@@ -13,19 +13,19 @@ hero:
   actions:
     - theme: brand
       text: 从零开始学习 PLO
-      link: /PLO4/plo-from-scratch/
+      link: /plo4/plo-from-scratch/
     - theme: alt
       text: 精通低级别 PLO
-      link: /PLO4/mssplo/
+      link: /plo4/mssplo/
     - theme: alt
       text: 精通 PLO：现代激进策略
-      link: /PLO4/master-plo/
+      link: /plo4/master-plo/
     - theme: alt
       text: PLO 快速职业手册
-      link: /PLO4/quickpro/
+      link: /plo4/quickpro/
     - theme: alt
       text: 击败小级别 PLO
-      link: /PLO4/beat-ssplo/
+      link: /plo4/beat-ssplo/
 
 features:
   - title: PLO 技术学习

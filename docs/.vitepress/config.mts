@@ -32,19 +32,19 @@ export default defineConfig({
        
     nav: [
       { text: '主页', link: '/' },
-      { text: 'PLO4', link: '/PLO4/' },
-      { text: 'PLO5', link: '/PLO5/' },
-      { text: 'Poker', link: '/Poker/' },
+      { text: 'PLO4', link: '/plo4/' },
+      { text: 'PLO5', link: '/plo5/' },
+      { text: 'Poker', link: '/poker/' },
       { text: '关于', link: '/about/' },
       { text: '留言板', link: '/comments/' }
     ],
 
     sidebar: {
       
-      '/PLO4/': generateSidebar({
+      '/plo4/': generateSidebar({
         sortMenusByFrontmatterDate: true,
         documentRootPath: 'docs',
-        scanStartPath: '/PLO4/',
+        scanStartPath: '/plo4/',
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
@@ -52,10 +52,10 @@ export default defineConfig({
         collapsed: true
       }),
 
-      '/PLO5/': generateSidebar({
+      '/plo5/': generateSidebar({
         sortMenusByFrontmatterDate: true,
         documentRootPath: 'docs',
-        scanStartPath: '/PLO5/',
+        scanStartPath: '/plo5/',
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
@@ -63,10 +63,10 @@ export default defineConfig({
         collapsed: true
       }),
 
-      '/Poker/': generateSidebar({
+      '/poker/': generateSidebar({
         sortMenusByFrontmatterDate: true,
         documentRootPath: 'docs',
-        scanStartPath: '/Poker/',
+        scanStartPath: '/poker/',
         useTitleFromFrontmatter: true,
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,

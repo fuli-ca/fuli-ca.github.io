@@ -20,22 +20,22 @@ title: PLO4 资料
 
 ## 技术文章
 
-[PLO4 起手牌分类](../Poker/plo4-category.md)
+[PLO4 起手牌分类](../poker/plo4-category.md)
 
-[PLO4 快速权益统计](../Poker/quick-stats.md)
+[PLO4 快速权益统计](../poker/quick-stats.md)
 
-[线上扑克玩家颜色分类系统](../Poker/player-color.md)
+[线上扑克玩家颜色分类系统](../poker/player-color.md)
 
-[奥马哈新手学习线路](../Poker/plo-learning-path.md)
+[奥马哈新手学习线路](../poker/plo-learning-path.md)
 
-[什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱](../Poker/lose-gg-lb.md)
+[什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱](../poker/lose-gg-lb.md)
 
-[我玩 PLO 赢了 100 万美元的心得体会](../Poker/plo-advice.md)
+[我玩 PLO 赢了 100 万美元的心得体会](../poker/plo-advice.md)
 
-[掌握扑克中的 VPIP：如何从最低 VPIP 游戏中获益](../Poker/master-vpip.md)
+[掌握扑克中的 VPIP：如何从最低 VPIP 游戏中获益](../poker/master-vpip.md)
 
-[如何玩高 VPIP 的 PLO 游戏](../Poker/play-high-vpip.md)
+[如何玩高 VPIP 的 PLO 游戏](../poker/play-high-vpip.md)
 
-[ClubGG VPIP 要求：如何在扑克强制游戏中保持盈利](../Poker/clubgg-vpip.md)
+[ClubGG VPIP 要求：如何在扑克强制游戏中保持盈利](../poker/clubgg-vpip.md)
 
-[NLHE 玩家的 PLO 指南](../Poker/nltoplo.md)
+[NLHE 玩家的 PLO 指南](../poker/nltoplo.md)
