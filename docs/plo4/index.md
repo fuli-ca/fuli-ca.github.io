@@ -39,3 +39,5 @@ title: PLO4 资料
 [ClubGG VPIP 要求：如何在扑克强制游戏中保持盈利](../poker/clubgg-vpip.md)
 
 [NLHE 玩家的 PLO 指南](../poker/nltoplo.md)
+
+[职业牌手是如何研究 PLO 的？](../poker/pro-study-plo.md)
