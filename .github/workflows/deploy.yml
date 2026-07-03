@@ -21,16 +21,6 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm install
-      
-      # ========== 新增的清理步骤开始 ==========
-      # 清理 vitepress-sidebar 可能存在的缓存
-      - run: npx vitepress-utils clear-cache
-        continue-on-error: true  # 即使命令失败也继续，避免中断构建
-      
-      # 直接删除 VitePress 的缓存目录（更彻底）
-      - run: rm -rf docs/.vitepress/cache
-      # ========== 清理步骤结束 ==========
 
       - run: npm ci
 
