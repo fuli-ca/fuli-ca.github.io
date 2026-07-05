@@ -29,7 +29,12 @@ export default defineConfig({
       next: false
     },
     // https://vitepress.dev/reference/default-theme-config
-       
+    notFound: {
+      title: '页面不存在',
+      quote: '这个页面不存在，可能已经移动或删除。欢迎返回首页继续学习 PLO 扑克技术。',
+      linkLabel: '返回首页',
+      linkText: '🏠 复利网首页'
+    },   
     nav: [
       { text: '主页', link: '/' },
       { text: 'PLO4', link: '/plo4/' },

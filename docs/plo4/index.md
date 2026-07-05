@@ -28,7 +28,7 @@ title: PLO4 资料
 
 [奥马哈新手学习线路](../poker/plo-learning-path.md)
 
-[什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱](../poker/lose-gg-lb.md)
+[为什么大多数 PLO 玩家在追逐 GG 排行榜时会输钱](../poker/lose-gg-lb.md)
 
 [我玩 PLO 赢了 100 万美元的心得体会](../poker/plo-advice.md)
 
