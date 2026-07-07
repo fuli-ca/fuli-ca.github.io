@@ -11,6 +11,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    // 添加 canonical 标签，指定规范网址
+    ['link', { rel: 'canonical', href: 'https://fuli.ca/' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-RTWWHRVC45' }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
@@ -106,5 +108,3 @@ export default defineConfig({
     }
   },
 })
-
-
