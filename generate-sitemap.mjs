@@ -18,9 +18,9 @@ function scanDirectory(dir) {
       scanDirectory(fullPath);
     } else if (file === "index.html") {
 
-      let urlPath = path
-        .dirname(fullPath)
-        .replace(dist, "")
+      let relativePath = path.relative(dist, path.dirname(fullPath));
+
+      let urlPath = "/" + relativePath
         .replaceAll("\\", "/");
 
       // 首页
