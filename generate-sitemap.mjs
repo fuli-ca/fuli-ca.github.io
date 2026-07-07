@@ -1,12 +1,13 @@
 import fs from "fs";
 import path from "path";
 
-const domain = "https://www.fuli.ca";
+const domain = "https://fuli.ca";
 const dist = "./docs/.vitepress/dist";
+const output = "./docs/public/sitemap.xml";
 
-let urls = [];
+const urls = [];
 
-function scan(dir) {
+function scanDirectory(dir) {
   const files = fs.readdirSync(dir);
 
   for (const file of files) {
@@ -14,7 +15,7 @@ function scan(dir) {
     const stat = fs.statSync(fullPath);
 
     if (stat.isDirectory()) {
-      scan(fullPath);
+      scanDirectory(fullPath);
     } else if (file === "index.html") {
 
       let urlPath = path
@@ -22,7 +23,8 @@ function scan(dir) {
         .replace(dist, "")
         .replaceAll("\\", "/");
 
-      if (urlPath === "/") {
+      // 首页
+      if (urlPath === "") {
         urls.push(domain + "/");
       } else {
         urls.push(domain + urlPath + "/");
@@ -31,27 +33,36 @@ function scan(dir) {
   }
 }
 
-scan(dist);
+if (!fs.existsSync(dist)) {
+  console.error("❌ dist目录不存在，请先执行 vitepress build");
+  process.exit(1);
+}
+
+scanDirectory(dist);
 
 
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+// 去重 + 排序
+const uniqueUrls = [...new Set(urls)].sort();
 
-${urls.map(url => `
-<url>
+
+const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+${uniqueUrls
+  .map(
+    (url) => `<url>
   <loc>${url}</loc>
-</url>
-`).join("")}
+</url>`
+  )
+  .join("\n")}
 
-</urlset>`;
+</urlset>
+`;
 
-
-fs.writeFileSync(
-  "./docs/public/sitemap.xml",
-  sitemap
-);
+fs.writeFileSync(output, xml, "utf8");
 
 console.log(
-  `sitemap generated: ${urls.length} urls`
+  `✅ sitemap生成成功，共 ${uniqueUrls.length} 个URL`
 );
+
+console.log(`📍位置: ${output}`);
