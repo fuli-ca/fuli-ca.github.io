@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "复利网"
-  text: "PLO奥马哈扑克学习平台"
+  text: "奥马哈扑克学习平台"
   tagline: Keep Studying, Keep Playing, Keep Winning!
   image:
     src: fulilogo.png
