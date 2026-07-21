@@ -1,5 +1,8 @@
 ---
 title: 复利网 - 奥马哈扑克学习平台
+head:
+  - - title
+    - 复利网 - 奥马哈扑克学习平台
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
