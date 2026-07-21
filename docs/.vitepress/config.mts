@@ -8,7 +8,7 @@ export default defineConfig({
 
   // SEO
   title: '复利网 - 奥马哈扑克学习平台',
-
+  titleTemplate: ':title | 复利网',
   description:
     '复利网专注于奥马哈扑克学习，提供 PLO4、PLO5 策略教程、GTO 分析、扑克书籍整理和技术文章。',
 
