@@ -39,7 +39,9 @@ features:
 ---
 
 <!-- 在这里添加自定义内容 -->
-
+::: info 🌈 GTO 软件优惠
+PLO Genius 是市面上最便宜的 GTO 软件，适合初中级牌手。本站有幸联系到中国区代理，使用下面链接：[https://plogenius.com/?ref=plocn88](https://plogenius.com/?ref=plocn88)，填写优惠码：plocn88，享受 8 折优惠。详情请联络代理微信：PLOGenius888，小红书：PLOGeniusLab。
+:::
 ::: tip 📌 温馨提示
 本站所有资料仅供技术交流，请勿用于非法用途。如果需要更多的资料和帮助，请加微信：TORPRO。
 :::
