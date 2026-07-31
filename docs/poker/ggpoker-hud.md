@@ -60,13 +60,13 @@ GGPoker 是线上最大的扑克平台，不允许使用实时的 HUD，只能�
 
 有了上面的原则，下面介绍一种相对简单的 HUD，宗旨就是简单，容易判断对手。
 
-[Player Name]/[Total Hands]/[BB/100]
-[VPIP]/[PFR]/[ATS]/[3Bet]/[4Bet Range]
-BB Fold to [CO Steal]/[BTN Steal]/[SB Steal]  BB 3Bet to [CO Steal]/[BTN Steal]
-RFI [EP]/[MP]/[CO]/[BTN]/[SB]
-[Flop C-Bet]/[Turn C-bet]  [Fold to Flop C-Bet]/[Fold to Turn C-Bet]
-[Flop Raise C-Bet]/[Turn Raise C-Bet]
-[Flop Stab]/[Turn Stab]  [Fold to Flop Stab]/[Fold to Turn Stab]
+- [Player Name]/[Total Hands]/[BB/100]
+- [VPIP]/[PFR]/[ATS]/[3Bet]/[4Bet Range]
+- BB Fold to [CO Steal]/[BTN Steal]/[SB Steal]  BB 3Bet to [CO Steal]/[BTN Steal]
+- RFI [EP]/[MP]/[CO]/[BTN]/[SB]
+- [Flop C-Bet]/[Turn C-bet]  [Fold to Flop C-Bet]/[Fold to Turn C-Bet]
+- [Flop Raise C-Bet]/[Turn Raise C-Bet]
+- [Flop Stab]/[Turn Stab]  [Fold to Flop Stab]/[Fold to Turn Stab]
 
 上面使用的是英文，具体可能在 HUD 软件的使用的是类似的描述，请自行研究一下。
 
