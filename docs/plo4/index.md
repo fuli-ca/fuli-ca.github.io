@@ -41,3 +41,5 @@ title: PLO4 资料
 [NLHE 玩家的 PLO 指南](../poker/nltoplo.md)
 
 [职业牌手是如何研究 PLO 的？](../poker/pro-study-plo.md)
+
+[GGPoker HUD 介绍](../poker/ggpoker-hud.md)
