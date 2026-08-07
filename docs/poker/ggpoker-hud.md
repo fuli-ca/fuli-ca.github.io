@@ -62,7 +62,7 @@ GGPoker 是线上最大的扑克平台，不允许使用实时的 HUD，只能�
 
 - [Player Name]/[Total Hands]/[BB/100]
 - [VPIP]/[PFR]/[ATS]/[3Bet]/[Fold to 3Bet IP][Fold to 3Bet OOP]
-- BB Fold to [CO Steal]/[BTN Steal]/[SB Steal]  BTN vs CO Open [3Bet]/[Cold Call]
+- [SB Fold to BTN Steal]/[BB Fold to BTN Steal]/[BB Fold to SB Steal]  BTN vs CO Open [3Bet]/[Cold Call]
 - RFI [EP]/[MP]/[CO]/[BTN]/[SB]
 - Flop C-Bet [IP]/[OOP]/ Fold to Flop C-Bet [IP]/[OOP]
 - Flop Raise C-Bet [IP]/[OOP]
@@ -73,7 +73,7 @@ GGPoker 是线上最大的扑克平台，不允许使用实时的 HUD，只能�
 简单的解释一下 HUD 的选择的理由：
 - 第一行的手数可以看出来数据是否可靠，胜率能看出对手是否是一个赢家。
 - 第二行复用了 GGPoker 提供的智能 HUD 的数据，便于比较偏离有多大。AST 的数据在第四行可以看到具体位置的数据。增加了对 3Bet 的弃牌频率。
-- 第三行是 BB 抵抗偷盲的数据，没有选择 SB 的数据是因为在 BB 位置能真实的反映玩家的倾向，SB 位置不是最终的行动者，受后面 BB 影响，数据稳定性差。SB 玩家的倾向可参考他在 BB 的数据。最后两个数据是 BTN 对 CO 的 3Bet 和冷跟住的频率。
+- 第三行是 SB 对 BTN 偷池的弃牌率，BB 对 BTN 偷池的弃牌频率，BB 对 SB 偷池的弃牌频率。最后两个数据是 BTN 对 CO 的 3Bet 和冷跟住的频率。
 - 第四行是各个位置开池加注的频率，能够看出对手是否对位置变化敏感，数据虽多但是一目了然。
 - 第五行是翻牌持续下注频率和对应的弃牌频率。
 - 第六行是翻牌加注持续下注的频率。
