@@ -43,3 +43,5 @@ title: PLO4 资料
 [职业牌手是如何研究 PLO 的？](../poker/pro-study-plo.md)
 
 [GGPoker HUD 介绍](../poker/ggpoker-hud.md)
+
+[GGPoker 备注功能的使用](../poker/ggpoker-note.md)
