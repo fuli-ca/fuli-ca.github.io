@@ -39,6 +39,9 @@ features:
 ---
 
 <!-- 在这里添加自定义内容 -->
+::: info 🔔 请注意：本网站已经停止维护！
+为了更好的服务广大网友，我们将启用新的域名，请移步：[www.ploschool.com](https://ploschool.com)，旧的资料可能调整，并增加新的内容，国内访问的速度会更快！
+:::
 ::: info 🌈 GTO 软件优惠
 PLO Genius 是市面上最便宜的 GTO 软件，适合初中级牌手。本站有幸联系到中国区代理，使用下面链接：[https://plogenius.com/?ref=plocn88](https://plogenius.com/?ref=plocn88)，填写优惠码：plocn88，享受 8 折优惠。详情请联络代理QQ：2735921150，小红书：PLOGeniusLab。
 :::
