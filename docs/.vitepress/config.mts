@@ -48,7 +48,10 @@ export default defineConfig({
 
 
   head: [
-
+    ['meta', {
+      name: 'baidu-site-verification',
+      content: 'codeva-srw2M5E7ML'
+    }],
     // favicon
     [
       'link',
@@ -94,16 +97,6 @@ export default defineConfig({
       gtag('config', 'G-RTWWHRVC45');
       `
     ],
-
-
-    // 百度验证
-    [
-      'meta',
-      {
-        name: 'baidu-site-verification',
-        content: 'codeva-srw2M5E7ML'
-      }
-    ]
 
   ],
 
