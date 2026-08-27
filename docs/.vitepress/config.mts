@@ -50,7 +50,7 @@ export default defineConfig({
   head: [
     ['meta', {
       name: 'baidu-site-verification',
-      content: 'codeva-srw2M5E7ML'
+      content: 'codeva-Il5YRfUhLN'
     }],
     // favicon
     [
