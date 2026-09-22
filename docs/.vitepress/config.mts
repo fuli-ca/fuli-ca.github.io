@@ -16,13 +16,10 @@ export default defineConfig({
   cleanUrls: true,
 
 
-  // Sitemap
-  sitemap: {
-    hostname: 'https://fuli.ca'
-  },
+  // Sitemap 已移除：整站 noindex，不再向搜索引擎推送 URL
 
 
-  // Canonical
+  // Canonical + 整站退出搜索引擎索引
   transformHead({ pageData }) {
 
     let url = pageData.relativePath
@@ -41,6 +38,18 @@ export default defineConfig({
         {
           rel: 'canonical',
           href: canonical
+        }
+      ],
+
+
+      // 站点已停止维护，整站退出搜索引擎索引。
+      // noindex 只影响搜索收录，不影响用户直接访问；
+      // 保留 follow，让页面上指向 ploschool.com 的链接继续传递权重。
+      [
+        'meta',
+        {
+          name: 'robots',
+          content: 'noindex, follow'
         }
       ]
     ]

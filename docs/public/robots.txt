@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fuli.ca/sitemap.xml
+# 本站已停止维护，整站 noindex（见 docs/.vitepress/config.mts 的 transformHead）。
+# 这里必须保持 Allow：搜索引擎要能抓到页面，才能读到 noindex 标签并把索引移除。
+# 千万不要改成 Disallow: / —— 那样搜索引擎读不到 noindex，页面反而会以
+# 「无标题无描述」的形式留在索引里。
+# sitemap 已移除，不再向搜索引擎推送 URL。
