@@ -2,6 +2,8 @@
 title: PLO 快速职业手册
 ---
 
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [第一章：PLO 核心概念](qp-01.md)
 
 [第二章：创造有利可图的翻牌后场景](qp-02.md)

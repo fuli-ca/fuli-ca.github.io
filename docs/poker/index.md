@@ -2,6 +2,8 @@
 title: 扑克杂谈
 ---
 
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [游戏的选择：德州扑克与奥马哈](nlhe-or-plo.md)
 
 [你更适合线上扑克还是现场扑克？](online-or-live.md)

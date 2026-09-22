@@ -1,6 +1,9 @@
 ---
 title: 从零开始学习 PLO
 ---
+
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [第 1 部分：简介](pfs-part01.md)
 
 [第 2 部分：翻牌前打法 1](pfs-part02.md)

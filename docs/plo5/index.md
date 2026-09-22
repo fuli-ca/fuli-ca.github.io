@@ -2,6 +2,8 @@
 title: PLO5 资料
 ---
 
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [PLO5 起手牌分类](../poker/plo5-combo.md)
 
 [PLO5 策略解析：4 个助你在这个热门 PLO 变体游戏中取得成功的技巧](../poker/plo5-strategy.md)

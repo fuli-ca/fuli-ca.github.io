@@ -21,7 +21,7 @@ function scanDirectory(dir) {
 
       scanDirectory(fullPath);
 
-    } else if (file.endsWith(".html")) {
+    } else if (file.endsWith(".html") && file !== "404.html") {
 
 
       let relative = path.relative(

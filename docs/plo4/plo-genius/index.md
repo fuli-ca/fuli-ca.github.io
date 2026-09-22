@@ -2,6 +2,8 @@
 title: PLO 天才文章精选
 ---
 
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [体验 PLO，最酷的游戏！](pg01.md)
 
 [PLO - 底池限注意味着什么](pg02.md)

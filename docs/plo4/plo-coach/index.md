@@ -2,6 +2,8 @@
 title: PLO 培训网文章精选
 ---
 
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [选桌： 扑克盈利之道](pc01.md)
 
 [有利位置对子牌面 C-bet 指南](pc02.md)

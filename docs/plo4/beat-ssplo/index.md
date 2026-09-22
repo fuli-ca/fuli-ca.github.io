@@ -2,6 +2,8 @@
 title: 击败小级别 PLO（28 节课）
 ---
 
+## 本网站已经停止维护！请访问 [奥马哈扑克学校 ploschool.com](https://ploschool.com)，谢谢！
+
 [介绍](bssp-00.md)
 
 第一周
