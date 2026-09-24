@@ -86,7 +86,7 @@ export default defineConfig({
       'script',
       {
         async: '',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-RTWWHRVC45'
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-L6RQKQKSGL'
       }
     ],
 
@@ -103,7 +103,7 @@ export default defineConfig({
 
       gtag('js', new Date());
 
-      gtag('config', 'G-RTWWHRVC45');
+      gtag('config', 'G-L6RQKQKSGL');
       `
     ],
 
