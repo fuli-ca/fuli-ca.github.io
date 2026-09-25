@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
 
+// 本站域名（备用/已停维护版本一端）。
+const SITE = 'https://fuli.ca'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
@@ -19,6 +22,21 @@ export default defineConfig({
   // Sitemap 已移除：整站 noindex，不再向搜索引擎推送 URL
 
 
+  // 跨域首选声明：本站内容与 ploschool.com 重复，
+  // 新站 ploschool.com 是首选版本，本站为备用/已停维护版本。
+  //
+  // 注意：这里的 canonical 仍然指向自己（fuli.ca），不要改成跨域指向 ploschool.com。
+  // 原因是本站已整站 noindex —— noindex 是「强制指令」，搜索引擎会把本页从索引移除；
+  // 而跨域 canonical 只是「提示」，Google 并不保证遵循。
+  // 两者叠加没有额外收益，反而会掩盖 issue、让 GSC 报告更难读。
+  // 「旧站不再被索引」这件事由 noindex 独立完成，这也是 Google 对
+  // 联合发布（syndication）场景的现行推荐做法。
+  //
+  // 以下两个集合仅为文档用途保留，代码不依赖它们做分支判断：
+  // 整站（179 页）一律 noindex，不做任何页面级豁免。
+  // 其中 161 页与 ploschool.com 内容重复；另外 18 页为本站独有
+  // （主要是 /poker/ 下的文章），经与站主确认，同样不索引。
+
   // Canonical + 整站退出搜索引擎索引
   transformHead({ pageData }) {
 
@@ -28,8 +46,8 @@ export default defineConfig({
 
     const canonical =
       url === ''
-        ? 'https://fuli.ca/'
-        : `https://fuli.ca/${url}`
+        ? `${SITE}/`
+        : `${SITE}/${url}`
 
 
     return [
@@ -45,6 +63,7 @@ export default defineConfig({
       // 站点已停止维护，整站退出搜索引擎索引。
       // noindex 只影响搜索收录，不影响用户直接访问；
       // 保留 follow，让页面上指向 ploschool.com 的链接继续传递权重。
+      // 这是「旧站让位」的主力机制：强制、确定性生效。
       [
         'meta',
         {
