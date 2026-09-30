@@ -89,3 +89,55 @@
 .vp-doc h3:hover::before {
   opacity: 1;
 }
+
+/* ------------------- 停站提示条 ------------------- */
+/* 固定在窗口底部，30 秒后由 RetireNotice.vue 自动移除。 */
+/* 组件通过 Teleport 挂到 <body> 上，所以不受正文容器样式影响。 */
+.retire-notice {
+  position: fixed;
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+  /* 低于侧边栏(60)和搜索弹窗(100)，避免遮挡它们 */
+  z-index: 25;
+
+  width: max-content;
+  max-width: calc(100vw - 2rem);
+  padding: 0.6rem 1.1rem;
+
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+  background-color: var(--vp-c-bg-soft);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+
+  color: var(--vp-c-text-1);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.retire-notice a {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* 进出场：淡入 + 轻微上浮。必须写在 .retire-notice 之后，否则 transform 会被覆盖。 */
+.retire-fade-enter-active,
+.retire-fade-leave-active {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.retire-fade-enter-from,
+.retire-fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, 12px);
+}
+
+@media (max-width: 640px) {
+  .retire-notice {
+    bottom: 0.75rem;
+    font-size: 0.8125rem;
+  }
+}

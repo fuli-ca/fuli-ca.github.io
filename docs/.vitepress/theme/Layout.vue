@@ -2,6 +2,8 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 
+import RetireNotice from './RetireNotice.vue'
+
 const { Layout } = DefaultTheme
 const { frontmatter } = useData()
 
@@ -25,6 +27,14 @@ function slugify(str) {
 <template>
   <Layout>
     <template #doc-before>
+      <!--
+        停站提示条：固定在窗口底部，30 秒后自动消失。
+        注意是「每次访问只显示一次」—— 不是每篇文章都显示。
+        第一次进入文章页时弹出并开始计时，之后翻到任何文章页都不再出现；
+        关掉浏览器标签页后重新访问，会再提示一次。
+      -->
+      <RetireNotice />
+
       <div class="article-meta">
         <!-- H1 标题 -->
         <h1 class="article-title" :id="slugify(frontmatter.title)">
